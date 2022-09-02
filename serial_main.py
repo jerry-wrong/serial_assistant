@@ -7,11 +7,14 @@ import time
 from PyQt6.QtCore import QThread, QTimer
 from PyQt6.QtGui import QIcon, QColor, QTextCursor
 from PyQt6.QtSerialPort import QSerialPortInfo
-
 import serial_ui
+
+# dev加了三行
+
 import PyQt6.QtWidgets as qw
 import threading
 import serial_thread
+# dev单独加的
 from serial_thread import Serial_Qthread
 
 
